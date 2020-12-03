@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+
+    <head>
+
+        <title>Turban Familia</title>
+
+        <meta charset="utf-8">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+
+        <script defer src="js/script.js"></script>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css" />
+
+    </head>
+    <body>
+        <!-- ========== [ HEADER ] ========== -->
+        <header class="header" id="header">
+            <!-- ====== [ NAVIGATION ] ====== -->
+            <nav class="nav">
+                <h1 class="nav__logo">
+                    <a href="#header"><span>Turban</span> Familia</a>
+                </h1>
+                <ul class="nav-menu">
+                    <li class="nav-menu__item"><a href="#about" class="nav-menu__link">o nas</a></li>
+                    <li class="nav-menu__item"><a href="#familia" class="nav-menu__link">familia</a></li>
+                    <li class="nav-menu__item"><a href="#faq" class="nav-menu__link">faq</a></li>
+                    <li class="nav-menu__item"><a onclick="openReg()" class="nav-menu__link">regulamin</a></li>
+                </ul>
+            </nav>
+            <!-- ====== [ SLIDER ] ====== -->
+            <div class="header-slider">
+                <div class="header-slider__slide active"></div>
+                <div class="header-slider__slide"></div>
+                <div class="header-slider__slide"></div>
+            </div>
+            <!-- ====== [ SLIDER BUTTONS ] ====== -->
+            <button class="header__btn" id="js--btn-prev"><i class="fal fa-chevron-left"></i></button>
+            <button class="header__btn" id="js--btn-next"><i class="fal fa-chevron-right"></i></button>
+            <!-- ======= [ HEADER LOGO ] ====== -->
+            <div class="header__inner">
+                <h2 class="header__logo">Turban Familia</h2>
+                <a href="#about" class="header__scroll">
+                    <span></span>
+                </a>
+            </div>
+        </header>
+        <!-- ========== [ CONTACT ] ========== -->
+        <section class="contact">
+            <p class="contact__heading">DOŁĄCZ</p>
+            <a href="" class="contact__link"><i class="fab fa-teamspeak contact__icon"></i></a>
+            <a href="" class="contact__link"><i class="fab fa-discord"></i></a>
+        </section>
+        <!-- ========== [ ABOUT ] ========== -->
+        <section class="about" id="about">
+            <div class="about__img-box"></div>
+                <div class="about__inner">
+                    <h3 class="about__heading">o naszej <span>rodzinie</span></h3>
+                    <p class="about__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel numquam velit odit officiis modi, deleniti quo suscipit nostrum, quia dicta ad eligendi, earum sint dolor ducimus maxime facilis consequatur doloremque.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel numquam velit odit officiis modi, deleniti quo suscipit nostrum, quia dicta ad eligendi, earum sint dolor ducimus maxime facilis consequatur doloremque.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel numquam velit odit officiis modi, deleniti quo suscipit nostrum, quia dicta ad eligendi, earum sint dolor ducimus maxime facilis consequatur doloremque.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel numquam velit odit officiis modi, deleniti quo suscipit nostrum, quia dicta ad eligendi, earum sint dolor ducimus maxime facilis consequatur doloremque.
+                    </p>
+                </div>    
+        </section>
+        <!-- ========== [ FAMILIA ] ========== -->
+        <section class="familia" id="familia">       
+            <div class="familia__inner">
+                <h3 class="familia__heading">POZNAJ <span>GŁOWĘ</span> RODZINY</h3>
+            </div>
+            <div class="familia__deck">
+                <div class="familia-card">
+                    <img src="/img/user_placeholder.png" alt="" class="familia-card__img">
+                    <h4 class="familia-card__heading">Amiczek</h4>
+                    <h4 class="familia-card__heading">LIDER</h4>
+                </div>
+                <div class="familia-card">
+                    <img src="/img/user_placeholder.png" alt="" class="familia-card__img">
+                    <h4 class="familia-card__heading">Rexon*</h4>
+                    <h4 class="familia-card__heading">LIDER</h4>
+                </div>
+                <div class="familia-card">
+                    <img src="/img/user_placeholder.png" alt="" class="familia-card__img">
+                    <h4 class="familia-card__heading">kukcio_</h4>
+                    <h4 class="familia-card__heading">VICE-LIDER</h4>
+                </div>
+                <div class="familia-card">
+                    <img src="/img/user_placeholder.png" alt="" class="familia-card__img">
+                    <h4 class="familia-card__heading">LastoAkaRudy</h4>
+                    <h4 class="familia-card__heading">VICE-LIDER</h4>
+                </div>
+            </div>
+        </section>
+        <!-- ========== [ FAQ ] ========== -->  
+        <section class="faq" id="faq">
+            <div class="faq__inner">
+                <h4 class="faq__name">FAQ</h4>
+                <h3 class="faq__heading">NAJCZĘŚCIEJ ZADAWANE PYTANIA</h3>
+            </div>
+            <div class="faq__deck">
+                <div class="faq-card">
+                    <i class="fas fa-question-circle faq-card__icon"></i>
+                    <h4 class="faq-card__question">PYTANIE</h4>
+                    <p class="faq-card__answer">ODP Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error exercitationem deserunt? Minus consequuntur, eos saepe magnam quasi temporibus autem blanditiis quibusdam, quaerat amet corrupti. Inventore eaque sequi architecto ducimus.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-question-circle faq-card__icon"></i>
+                    <h4 class="faq-card__question">PYTANIE</h4>
+                    <p class="faq-card__answer">ODP Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error exercitationem deserunt? Minus consequuntur, eos saepe magnam quasi temporibus autem blanditiis quibusdam, quaerat amet corrupti. Inventore eaque sequi architecto ducimus.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-question-circle faq-card__icon"></i>
+                    <h4 class="faq-card__question">PYTANIE</h4>
+                    <p class="faq-card__answer">ODP Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error exercitationem deserunt? Minus consequuntur, eos saepe magnam quasi temporibus autem blanditiis quibusdam, quaerat amet corrupti. Inventore eaque sequi architecto ducimus.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-question-circle faq-card__icon"></i>
+                    <h4 class="faq-card__question">PYTANIE</h4>
+                    <p class="faq-card__answer">ODP Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error exercitationem deserunt? Minus consequuntur, eos saepe magnam quasi temporibus autem blanditiis quibusdam, quaerat amet corrupti. Inventore eaque sequi architecto ducimus.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ========== [ REGULATIONS ] ========== -->
+        <section class="regulations" id="regulations">
+            <h4 class="regulations__heading">zainteresowany? zapoznaj się z naszym regulaminem!</h4>
+            <button class="regulations__btn" onclick="openReg()">REGULAMIN&nbsp;&nbsp;&nbsp;<i class="fal fa-long-arrow-right"></i></button>
+        </section>
+        <!-- ========== [ FOOTER ] ========== -->
+        <footer class="footer">
+            <h5 class="footer__copy-rights">
+                Turban Familia &copy; 2020 &dash; wszelkie prawa zastrzeżone
+            </h5>
+            <div class="footer__inner hide">
+                <a href="" class="footer__link"><i class="fab fa-teamspeak footer__icon"></i></a>
+                <a href="" class="footer__link"><i class="fab fa-discord footer__icon"></i></a>
+            </div>
+            <h5 class="footer__author">
+                DESIGNED BY <a href="https://www.facebook.com/damian.zytner.7/" target="_blank">damzyt</a>
+            </h5>
+        </footer>
+    </body>
+</html>
